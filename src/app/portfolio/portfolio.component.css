@@ -1,0 +1,103 @@
+General Styles
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #007bff;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  padding: 30px 0;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 18px;
+  color: #555;
+}
+
+.social-links button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.github {
+  background-color: #24292e;
+  color: white;
+}
+
+.social-links button:hover {
+  opacity: 0.8;
+}
+
+/* About Me Section */
+.about {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Projects Section */
+.projects .project {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projects .project h3 {
+  color: #007bff;
+}
+
+/* Experience Section */
+.experience {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      padding: 15px;
+  }
+
+  header h1 {
+      font-size: 24px;
+  }
+
+  header p {
+      font-size: 16px;
+  }
+}

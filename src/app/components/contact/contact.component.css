@@ -1,0 +1,42 @@
+.contact-section {
+  background-color: #1b1b1b;   /* Dark background */
+  color: white;
+  min-height: 100vh;           /* Full-page height */
+  display: flex;
+  align-items: center;         /* Vertically center content */
+  justify-content: center;     /* Horizontally center content */
+}
+
+.container {
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.contact-links p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+
+
+
+.hire-btn {
+  background-color: #00c853;  /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover {
+  background-color: #009624;  /* Darker green on hover */
+}

@@ -1,0 +1,39 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+
+.navbar {
+  background-color: #000000 !important;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.text-success {
+  color: #00ff9f !important;
+}
+
+.btn-success {
+  background-color: #00ff9f;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #00e68a;
+}
+
+.rounded-pill {
+  border-radius: 50px;
+}
+
+.shadow-sm {
+  box-shadow: 0px 2px 10px rgba(0, 255, 159, 0.2);
+}
